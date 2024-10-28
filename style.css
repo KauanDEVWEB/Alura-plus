@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nerko+One&display=swap');
+
+:root{
+    --cor-primaria: #00030C;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: red;
+    --cor-quarta: #C0C0C0; 
+    --cor-quinta: #127BF7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.principal{
+    background-image: url("img/Background.png") ;
+}
